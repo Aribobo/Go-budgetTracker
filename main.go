@@ -27,7 +27,7 @@ type FinacialRecord interface {
 	GetType() string
 }
 
-// implement interface method for transaction
+// implement interface method for transactions
 func (t Transaction) GetAmount() float64 {
 	return t.Amount
 }
